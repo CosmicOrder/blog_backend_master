@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 {% load static %}
-  <html lang="en">
-<head>
+<html lang="en">
+  <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -42,10 +42,10 @@
       </nav>
     </div>
   </header>
-  <!--================Header Menu Area =================-->
-{% block content %}
-{% endblock %}
-  <!--================ Start Footer Area =================-->
+    <!--================Header Menu Area =================-->
+  {% block content %}
+  {% endblock %}
+    <!--================ Start Footer Area =================-->
   <footer class="footer-area section-padding">
     <div class="container">
       <div class="row">
@@ -114,7 +114,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
       </div>
     </div>
   </footer>
-  <!--================ End Footer Area =================-->
-<script src="{% static 'scripts.js' %}"></script>
-</body>
-  </html>
+    <!--================ End Footer Area =================-->
+  <script src="{% static 'scripts.js' %}"></script>
+  </body>
+</html>
